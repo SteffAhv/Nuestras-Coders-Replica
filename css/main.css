@@ -1,0 +1,37 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+#container {
+
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    font-family: 'Arvo', serif;
+}
+
+header {
+    background: white;
+    font-size: 20px;
+    height: 7%;
+    margin-left: 6px;
+}
+
+h5 {
+  margin-left: 20px;
+
+}
+
+.coders {
+
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+img {
+  width: 130px;
+  height: 130px;
+  float: right;
+  margin:15px;
+}
