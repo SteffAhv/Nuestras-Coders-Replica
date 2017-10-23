@@ -1,37 +1,98 @@
+/*Dando un relleno y margen de 0 */
 * {
-  margin:0;
-  padding: 0;
+    padding: 0;
+    margin: 0;
 }
-
-#container {
-
-    width: 500px;
-    height: 400px;
-    margin: 10px auto;
+/*Definiendo el ancho y posicion de la sección general */
+section {
+    width:530px;
+    margin: auto;
+}
+/*Definiendo los estilos del encabezado*/
+header{
+    margin: auto;
+    text-align: left;
+    width: 530px;
     font-family: 'Arvo', serif;
 }
-
-header {
-    background: white;
-    font-size: 20px;
-    height: 7%;
-    margin-left: 6px;
+/*Definiendo los estilos de la raya*/
+hr {
+  width:4%;
+  height:0.2em;
+  background:black;
+  border-radius:2em;
+  margin-left:31.2%;
 }
-
-h5 {
-  margin-left: 20px;
-
-}
-
-.coders {
-
-  margin-top: 20px;
-  margin-right: 10px;
+/*Dando un margen al texto del encabezado */
+h5{
+    margin-left: 12px;
+    margin-top: 8px;
 
 }
-img {
-  width: 130px;
-  height: 130px;
-  float: right;
-  margin:15px;
+/*Definiendo los estilos de los contenedores*/
+.container1 {
+    background-image:url("../assets/imgs/image1.jpg");
+    float: left;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+
+.container2 {
+    background-image:url("../assets/imgs/image2.jpg");
+    float: left;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+
+.container3 {
+    background-image: url("../assets/imgs/image3.jpg");
+    float: left;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+.container4 {
+    background-image: url("../assets/imgs/image4.jpg");
+    float: left;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+.container5 {
+    background-image: url("../assets/imgs/image5.jpg");
+    float: left;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+.container6 {
+    background-image: url("../assets/imgs/image6.jpg");
+    float: left;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+}
+/*Definiendo los estilos del texto de los contenedores*/
+.text {
+    text-align:right;
+    color: white;
+    height: 10%;
+    /*outline: 1px solid black;-- PARA VER DONDE SE POSICIONA EL TEXTO*/
+    margin-top:130px;
+    margin-right: 10px;
+    font-family: 'Arvo', serif;
+    font-size: 13px;
+}
+
+.text:hover {
+    background: rgba(99, 104, 110, 0.38);
+    transition: 0.5s;
 }
